@@ -1,0 +1,203 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Test_Synchronization",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.test_synchronization.Test_Synchronization",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
+            "name": "Launch Right_Click",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.mouse_actions.Right_Click",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
+            "name": "Launch Mouse_Hover",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.mouse_actions.Mouse_Hover",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
+            "name": "Launch Prompt_Box",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.javascript_alerts.Prompt_Box",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
+            "name": "Launch Confirmation_Box",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.javascript_alerts.Confirmation_Box",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
+            "name": "Launch Simple_Alerts",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.javascript_alerts.Simple_Alerts",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
+            "name": "Launch Multiple_Browser_Windows",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.switching_tabs.Multiple_Browser_Windows",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
+            "name": "Launch Switch_Browser_Tab",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.switching_tabs.Switch_Browser_Tab",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
+            "name": "Launch WebTableObject",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.special_elements.WebTableObject",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
+            "name": "Launch WebTable",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.special_elements.WebTable",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.special_elements.Test",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
+            "name": "Launch Concat",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.special_elements.Concat",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
+            "name": "Launch Datepicker",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.special_elements.Datepicker",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch CSS1",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.css.CSS1",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
+            "name": "Launch Basic_Get_Methods",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.element_details.Basic_Get_Methods",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
+            "name": "Launch Chrome_Test",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.selenium_test.Chrome_Test",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindElement_LinkName_Id",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.selenium_test.FindElement_LinkName_Id",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindElements_LinkName_Id",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.selenium_test.FindElements_LinkName_Id",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
+            "name": "Launch Firefox_Test",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.selenium_test.Firefox_Test",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
+            "name": "Launch Get_Page_Basics",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.selenium_test.Get_Page_Basics",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
+            "name": "Launch Navigation_Test",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.selenium_test.Navigation_Test",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
+            "name": "Launch Xpath1",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.selenium_test.Xpath1",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
+            "name": "Launch MultiselectBox",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.special_elements.MultiselectBox",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
+            "name": "Launch Selectbox",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.special_elements.Selectbox",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
+            "name": "Launch Advanced_Collections",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.webelements_collection.Advanced_Collections",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
+            "name": "Launch Element_Reference",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.webelements_collection.Element_Reference",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
+            "name": "Launch WebElements_Collection",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.webelements_collection.WebElements_Collection",
+            "projectName": "selenium-test"
+        }
+    ]
+}
