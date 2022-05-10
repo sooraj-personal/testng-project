@@ -8,9 +8,9 @@ import org.testng.annotations.Test;
 public class EbayHome_Sanity {
 
     @Test
-    public static void main() throws Exception {
+    public void empty_Search_test() throws Exception {
         
-        System.setProperty("webdriver.chrome,driver", "D:\\Drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "D:\\Drivers\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.ebay.com/");
         Thread.sleep(2000);
