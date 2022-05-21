@@ -11,7 +11,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-public class EbayHome_Sanity {
+public class Ebay_Home_Sanity {
 
 	WebDriver driver;
 

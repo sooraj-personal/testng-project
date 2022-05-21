@@ -199,5 +199,6 @@
             "mainClass": "com.dezlearn.qa.webelements_collection.WebElements_Collection",
             "projectName": "selenium-test"
         }
-    ]
+    ],
+    "java.configuration.updateBuildConfiguration": "automatic"
 }

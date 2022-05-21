@@ -1,0 +1,8 @@
+<suite name="Sanity Test Suite">
+	<test name="Release 2022.5 Sanity Testing">
+		<classes>
+			<class name="studyproject.Ebay_Home_Sanity" />
+			<class name="studyproject.Ebay_Advanced_Search_Sanity" />
+		</classes>
+	</test>
+</suite>
