@@ -1,5 +1,10 @@
 package studyproject;
 
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -61,6 +66,23 @@ public class Ebay_Advanced_Search_Sanity {
 
         Assert.assertEquals(newUrl, expectedUrl, "Verify url of the new page");
 		Assert.assertEquals(newTitle, expectedTitle, "Verify title of the new page");
+
+    }
+
+    @Test
+    public void category_option_in_assending_order_test(){
+        List<WebElement> category_options = driver.findElements(By.cssSelector("#e1-1"));
+        List<String> arr1 = new ArrayList<String>();
+
+        for(WebElement option : category_options){
+            arr1.add(option.getText());
+        }
+
+        List<String> arr2 = new ArrayList<String>(arr1);
+        Collections.sort(arr2);
+        System.out.println("Actual List : " + arr1);
+        System.out.println("Sorted List : " + arr2);
+        Assert.assertEquals(arr1, arr2, "Verify category items sorted");
 
     }
 }
