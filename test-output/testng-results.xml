@@ -1,55 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="3" passed="2" failed="1" skipped="0">
+<testng-results total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-21T19:42:00Z" name="Sanity Test Suite" finished-at="2022-05-21T19:42:44Z" duration-ms="44519">
+  <suite started-at="2022-05-24T17:48:36Z" name="Include Exclude Method Suite" finished-at="2022-05-24T17:48:57Z" duration-ms="21681">
     <groups>
     </groups>
-    <test started-at="2022-05-21T19:42:00Z" name="Release 2022.5 Sanity Testing" finished-at="2022-05-21T19:42:44Z" duration-ms="44519">
+    <test started-at="2022-05-24T17:48:36Z" name="Provide Methods" finished-at="2022-05-24T17:48:57Z" duration-ms="21681">
       <class name="studyproject.Ebay_Advanced_Search_Sanity">
-        <test-method is-config="true" signature="BeforeClassSetup()[pri:0, instance:studyproject.Ebay_Advanced_Search_Sanity@63070bab]" started-at="2022-05-22T01:12:31Z" name="BeforeClassSetup" finished-at="2022-05-22T01:12:31Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="BeforeClassSetup()[pri:0, instance:studyproject.Ebay_Advanced_Search_Sanity@5f8edcc5]" started-at="2022-05-24T23:18:52Z" name="BeforeClassSetup" finished-at="2022-05-24T23:18:52Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeClassSetup -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:studyproject.Ebay_Advanced_Search_Sanity@63070bab]" started-at="2022-05-22T01:12:31Z" name="setUp" finished-at="2022-05-22T01:12:37Z" duration-ms="6136" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:studyproject.Ebay_Advanced_Search_Sanity@5f8edcc5]" started-at="2022-05-24T23:18:52Z" name="setUp" finished-at="2022-05-24T23:18:57Z" duration-ms="5527" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="empty_advanced_search_test()[pri:0, instance:studyproject.Ebay_Advanced_Search_Sanity@63070bab]" started-at="2022-05-22T01:12:37Z" name="empty_advanced_search_test" finished-at="2022-05-22T01:12:44Z" duration-ms="6335" status="PASS">
+        <test-method signature="category_option_in_assending_order_test()[pri:0, instance:studyproject.Ebay_Advanced_Search_Sanity@5f8edcc5]" started-at="2022-05-24T23:18:57Z" name="category_option_in_assending_order_test" finished-at="2022-05-24T23:18:57Z" duration-ms="112" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- empty_advanced_search_test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:studyproject.Ebay_Advanced_Search_Sanity@63070bab]" started-at="2022-05-22T01:12:44Z" name="tearDown" finished-at="2022-05-22T01:12:44Z" duration-ms="292" status="PASS">
+        </test-method> <!-- category_option_in_assending_order_test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:studyproject.Ebay_Advanced_Search_Sanity@5f8edcc5]" started-at="2022-05-24T23:18:57Z" name="tearDown" finished-at="2022-05-24T23:18:57Z" duration-ms="251" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="afterClassSetup()[pri:0, instance:studyproject.Ebay_Advanced_Search_Sanity@63070bab]" started-at="2022-05-22T01:12:44Z" name="afterClassSetup" finished-at="2022-05-22T01:12:44Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterClassSetup()[pri:0, instance:studyproject.Ebay_Advanced_Search_Sanity@5f8edcc5]" started-at="2022-05-24T23:18:57Z" name="afterClassSetup" finished-at="2022-05-24T23:18:57Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClassSetup -->
       </class> <!-- studyproject.Ebay_Advanced_Search_Sanity -->
       <class name="studyproject.Ebay_Home_Sanity">
-        <test-method is-config="true" signature="BeforeClassSetup()[pri:0, instance:studyproject.Ebay_Home_Sanity@313b2ea6]" started-at="2022-05-22T01:12:00Z" name="BeforeClassSetup" finished-at="2022-05-22T01:12:00Z" duration-ms="30" status="PASS">
+        <test-method is-config="true" signature="BeforeClassSetup()[pri:0, instance:studyproject.Ebay_Home_Sanity@57250572]" started-at="2022-05-24T23:18:36Z" name="BeforeClassSetup" finished-at="2022-05-24T23:18:36Z" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeClassSetup -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:studyproject.Ebay_Home_Sanity@313b2ea6]" started-at="2022-05-22T01:12:00Z" name="setUp" finished-at="2022-05-22T01:12:10Z" duration-ms="10690" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:studyproject.Ebay_Home_Sanity@57250572]" started-at="2022-05-24T23:18:36Z" name="setUp" finished-at="2022-05-24T23:18:45Z" duration-ms="9071" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="empty_Search_test()[pri:0, instance:studyproject.Ebay_Home_Sanity@313b2ea6]" started-at="2022-05-22T01:12:10Z" name="empty_Search_test" finished-at="2022-05-22T01:12:18Z" duration-ms="7558" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- empty_Search_test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:studyproject.Ebay_Home_Sanity@313b2ea6]" started-at="2022-05-22T01:12:18Z" name="tearDown" finished-at="2022-05-22T01:12:18Z" duration-ms="459" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:studyproject.Ebay_Home_Sanity@313b2ea6]" started-at="2022-05-22T01:12:18Z" name="setUp" finished-at="2022-05-22T01:12:25Z" duration-ms="6303" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="empty_Search_test_softassert()[pri:0, instance:studyproject.Ebay_Home_Sanity@313b2ea6]" started-at="2022-05-22T01:12:25Z" name="empty_Search_test_softassert" finished-at="2022-05-22T01:12:31Z" duration-ms="6296" status="FAIL">
+        <test-method signature="empty_Search_test_softassert()[pri:0, instance:studyproject.Ebay_Home_Sanity@57250572]" started-at="2022-05-24T23:18:45Z" name="empty_Search_test_softassert" finished-at="2022-05-24T23:18:51Z" duration-ms="6380" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -90,15 +78,15 @@ Verify search button disabled
           <reporter-output>
           </reporter-output>
         </test-method> <!-- empty_Search_test_softassert -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:studyproject.Ebay_Home_Sanity@313b2ea6]" started-at="2022-05-22T01:12:31Z" name="tearDown" finished-at="2022-05-22T01:12:31Z" duration-ms="376" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:studyproject.Ebay_Home_Sanity@57250572]" started-at="2022-05-24T23:18:51Z" name="tearDown" finished-at="2022-05-24T23:18:52Z" duration-ms="285" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="afterClassSetup()[pri:0, instance:studyproject.Ebay_Home_Sanity@313b2ea6]" started-at="2022-05-22T01:12:31Z" name="afterClassSetup" finished-at="2022-05-22T01:12:31Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClassSetup()[pri:0, instance:studyproject.Ebay_Home_Sanity@57250572]" started-at="2022-05-24T23:18:52Z" name="afterClassSetup" finished-at="2022-05-24T23:18:52Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClassSetup -->
       </class> <!-- studyproject.Ebay_Home_Sanity -->
-    </test> <!-- Release 2022.5 Sanity Testing -->
-  </suite> <!-- Sanity Test Suite -->
+    </test> <!-- Provide Methods -->
+  </suite> <!-- Include Exclude Method Suite -->
 </testng-results>

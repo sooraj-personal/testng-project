@@ -1,16 +1,15 @@
-<suite name="Sanity Test Suite">
-    <test name="Release 2022.5 Sanity Testing">
+<suite name="Include Exclude Method Suite">
+    <test name="Provide Methods">
         <classes>
             <class name="studyproject.Ebay_Home_Sanity">
                 <methods>
-                    <include name="empty_search_test">
+                    <include name="empty_Search_test_softassert">
                     </include>
                 </methods>
             </class>
             <class name="studyproject.Ebay_Advanced_Search_Sanity">
                 <methods>
-                    <exclude name="empty_advanced_search_test">
-                    </exclude>
+                    <exclude name="empty_advanced_search_test" />
                 </methods>
             </class>
         </classes>
