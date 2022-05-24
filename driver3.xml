@@ -1,0 +1,12 @@
+<suite name="Before And AFter Test Demo">
+    <test name="Before And After Test Annotations">
+        <classes>
+            <class name="studyproject.Demo_Test" />
+        </classes>
+    </test>
+    <test name="General Testing">
+        <classes>
+            <class name="studyproject.Ebay_Advanced_Search_Sanity" />
+        </classes>
+    </test>
+</suite>
