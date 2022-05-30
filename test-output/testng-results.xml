@@ -1,92 +1,135 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="2" passed="1" failed="1" skipped="0">
+<testng-results total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-24T17:48:36Z" name="Include Exclude Method Suite" finished-at="2022-05-24T17:48:57Z" duration-ms="21681">
+  <suite started-at="2022-05-24T19:33:47Z" name="Before And AFter Test Demo" finished-at="2022-05-24T19:34:13Z" duration-ms="26162">
     <groups>
     </groups>
-    <test started-at="2022-05-24T17:48:36Z" name="Provide Methods" finished-at="2022-05-24T17:48:57Z" duration-ms="21681">
-      <class name="studyproject.Ebay_Advanced_Search_Sanity">
-        <test-method is-config="true" signature="BeforeClassSetup()[pri:0, instance:studyproject.Ebay_Advanced_Search_Sanity@5f8edcc5]" started-at="2022-05-24T23:18:52Z" name="BeforeClassSetup" finished-at="2022-05-24T23:18:52Z" duration-ms="1" status="PASS">
+    <test started-at="2022-05-24T19:33:47Z" name="Before And After Test Annotations" finished-at="2022-05-24T19:33:47Z" duration-ms="71">
+      <class name="studyproject.Demo_Test">
+        <test-method is-config="true" signature="beforeTestSetup()[pri:0, instance:studyproject.Demo_Test@291b4bf5]" started-at="2022-05-25T01:03:47Z" name="beforeTestSetup" finished-at="2022-05-25T01:03:47Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BeforeClassSetup -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:studyproject.Ebay_Advanced_Search_Sanity@5f8edcc5]" started-at="2022-05-24T23:18:52Z" name="setUp" finished-at="2022-05-24T23:18:57Z" duration-ms="5527" status="PASS">
+        </test-method> <!-- beforeTestSetup -->
+        <test-method is-config="true" signature="beforeClassSetup()[pri:0, instance:studyproject.Demo_Test@291b4bf5]" started-at="2022-05-25T01:03:47Z" name="beforeClassSetup" finished-at="2022-05-25T01:03:47Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="category_option_in_assending_order_test()[pri:0, instance:studyproject.Ebay_Advanced_Search_Sanity@5f8edcc5]" started-at="2022-05-24T23:18:57Z" name="category_option_in_assending_order_test" finished-at="2022-05-24T23:18:57Z" duration-ms="112" status="PASS">
+        </test-method> <!-- beforeClassSetup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:studyproject.Demo_Test@291b4bf5]" started-at="2022-05-25T01:03:47Z" name="setup" finished-at="2022-05-25T01:03:47Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- category_option_in_assending_order_test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:studyproject.Ebay_Advanced_Search_Sanity@5f8edcc5]" started-at="2022-05-24T23:18:57Z" name="tearDown" finished-at="2022-05-24T23:18:57Z" duration-ms="251" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="test1()[pri:0, instance:studyproject.Demo_Test@291b4bf5]" started-at="2022-05-25T01:03:47Z" name="test1" finished-at="2022-05-25T01:03:47Z" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:studyproject.Demo_Test@291b4bf5]" started-at="2022-05-25T01:03:47Z" name="tearDown" finished-at="2022-05-25T01:03:47Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="afterClassSetup()[pri:0, instance:studyproject.Ebay_Advanced_Search_Sanity@5f8edcc5]" started-at="2022-05-24T23:18:57Z" name="afterClassSetup" finished-at="2022-05-24T23:18:57Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:studyproject.Demo_Test@291b4bf5]" started-at="2022-05-25T01:03:47Z" name="setup" finished-at="2022-05-25T01:03:47Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test2()[pri:0, instance:studyproject.Demo_Test@291b4bf5]" started-at="2022-05-25T01:03:47Z" name="test2" finished-at="2022-05-25T01:03:47Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:studyproject.Demo_Test@291b4bf5]" started-at="2022-05-25T01:03:47Z" name="tearDown" finished-at="2022-05-25T01:03:47Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="test3()[pri:0, instance:studyproject.Demo_Test@291b4bf5]" started-at="2022-05-25T01:03:47Z" name="test3" finished-at="2022-05-25T01:03:47Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:studyproject.Demo_Test@291b4bf5]" started-at="2022-05-25T01:03:47Z" name="setup" finished-at="2022-05-25T01:03:47Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:studyproject.Demo_Test@291b4bf5]" started-at="2022-05-25T01:03:47Z" name="tearDown" finished-at="2022-05-25T01:03:47Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:studyproject.Demo_Test@291b4bf5]" started-at="2022-05-25T01:03:47Z" name="setup" finished-at="2022-05-25T01:03:47Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test4()[pri:0, instance:studyproject.Demo_Test@291b4bf5]" started-at="2022-05-25T01:03:47Z" name="test4" finished-at="2022-05-25T01:03:47Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:studyproject.Demo_Test@291b4bf5]" started-at="2022-05-25T01:03:47Z" name="tearDown" finished-at="2022-05-25T01:03:47Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:studyproject.Demo_Test@291b4bf5]" started-at="2022-05-25T01:03:47Z" name="setup" finished-at="2022-05-25T01:03:47Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test5()[pri:0, instance:studyproject.Demo_Test@291b4bf5]" started-at="2022-05-25T01:03:47Z" name="test5" finished-at="2022-05-25T01:03:47Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method is-config="true" signature="afterClassTearDown()[pri:0, instance:studyproject.Demo_Test@291b4bf5]" started-at="2022-05-25T01:03:47Z" name="afterClassTearDown" finished-at="2022-05-25T01:03:47Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassTearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:studyproject.Demo_Test@291b4bf5]" started-at="2022-05-25T01:03:47Z" name="tearDown" finished-at="2022-05-25T01:03:47Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterTestTearDown()[pri:0, instance:studyproject.Demo_Test@291b4bf5]" started-at="2022-05-25T01:03:47Z" name="afterTestTearDown" finished-at="2022-05-25T01:03:47Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestTearDown -->
+      </class> <!-- studyproject.Demo_Test -->
+    </test> <!-- Before And After Test Annotations -->
+    <test started-at="2022-05-24T19:33:47Z" name="General Testing" finished-at="2022-05-24T19:34:13Z" duration-ms="25974">
+      <class name="studyproject.Ebay_Advanced_Search_Sanity">
+        <test-method is-config="true" signature="BeforeClassSetup()[pri:0, instance:studyproject.Ebay_Advanced_Search_Sanity@343570b7]" started-at="2022-05-25T01:03:47Z" name="BeforeClassSetup" finished-at="2022-05-25T01:03:47Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClassSetup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:studyproject.Ebay_Advanced_Search_Sanity@343570b7]" started-at="2022-05-25T01:03:47Z" name="setUp" finished-at="2022-05-25T01:03:56Z" duration-ms="8356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="category_option_in_assending_order_test()[pri:0, instance:studyproject.Ebay_Advanced_Search_Sanity@343570b7]" started-at="2022-05-25T01:03:56Z" name="category_option_in_assending_order_test" finished-at="2022-05-25T01:03:56Z" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- category_option_in_assending_order_test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:studyproject.Ebay_Advanced_Search_Sanity@343570b7]" started-at="2022-05-25T01:03:56Z" name="tearDown" finished-at="2022-05-25T01:03:56Z" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:studyproject.Ebay_Advanced_Search_Sanity@343570b7]" started-at="2022-05-25T01:03:56Z" name="setUp" finished-at="2022-05-25T01:04:02Z" duration-ms="5905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="empty_advanced_search_test()[pri:0, instance:studyproject.Ebay_Advanced_Search_Sanity@343570b7]" started-at="2022-05-25T01:04:02Z" name="empty_advanced_search_test" finished-at="2022-05-25T01:04:09Z" duration-ms="7269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- empty_advanced_search_test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:studyproject.Ebay_Advanced_Search_Sanity@343570b7]" started-at="2022-05-25T01:04:09Z" name="tearDown" finished-at="2022-05-25T01:04:13Z" duration-ms="4218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterClassSetup()[pri:0, instance:studyproject.Ebay_Advanced_Search_Sanity@343570b7]" started-at="2022-05-25T01:04:13Z" name="afterClassSetup" finished-at="2022-05-25T01:04:13Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClassSetup -->
       </class> <!-- studyproject.Ebay_Advanced_Search_Sanity -->
-      <class name="studyproject.Ebay_Home_Sanity">
-        <test-method is-config="true" signature="BeforeClassSetup()[pri:0, instance:studyproject.Ebay_Home_Sanity@57250572]" started-at="2022-05-24T23:18:36Z" name="BeforeClassSetup" finished-at="2022-05-24T23:18:36Z" duration-ms="17" status="PASS">
+      <class name="studyproject.Demo_Test">
+        <test-method is-config="true" signature="beforeSuiteSetup()[pri:0, instance:studyproject.Demo_Test@291b4bf5]" started-at="2022-05-25T01:03:47Z" name="beforeSuiteSetup" finished-at="2022-05-25T01:03:47Z" duration-ms="21" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BeforeClassSetup -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:studyproject.Ebay_Home_Sanity@57250572]" started-at="2022-05-24T23:18:36Z" name="setUp" finished-at="2022-05-24T23:18:45Z" duration-ms="9071" status="PASS">
+        </test-method> <!-- beforeSuiteSetup -->
+        <test-method is-config="true" signature="afterSuiteTestDown()[pri:0, instance:studyproject.Demo_Test@291b4bf5]" started-at="2022-05-25T01:04:13Z" name="afterSuiteTestDown" finished-at="2022-05-25T01:04:13Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="empty_Search_test_softassert()[pri:0, instance:studyproject.Ebay_Home_Sanity@57250572]" started-at="2022-05-24T23:18:45Z" name="empty_Search_test_softassert" finished-at="2022-05-24T23:18:51Z" duration-ms="6380" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-Verify search button disabled]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-Verify search button disabled
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:37)
-	at studyproject.Ebay_Home_Sanity.empty_Search_test_softassert(Ebay_Home_Sanity.java:96)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- empty_Search_test_softassert -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:studyproject.Ebay_Home_Sanity@57250572]" started-at="2022-05-24T23:18:51Z" name="tearDown" finished-at="2022-05-24T23:18:52Z" duration-ms="285" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="afterClassSetup()[pri:0, instance:studyproject.Ebay_Home_Sanity@57250572]" started-at="2022-05-24T23:18:52Z" name="afterClassSetup" finished-at="2022-05-24T23:18:52Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClassSetup -->
-      </class> <!-- studyproject.Ebay_Home_Sanity -->
-    </test> <!-- Provide Methods -->
-  </suite> <!-- Include Exclude Method Suite -->
+        </test-method> <!-- afterSuiteTestDown -->
+      </class> <!-- studyproject.Demo_Test -->
+    </test> <!-- General Testing -->
+  </suite> <!-- Before And AFter Test Demo -->
 </testng-results>
